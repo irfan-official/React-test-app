@@ -1,5 +1,5 @@
 {
-  "homepage": "https://irfan-official.github.io/React-test-app",
+  "homepage": "https://irfan-official.github.io/React-test-app/",
   "name": "github_test",
   "private": true,
   "version": "0.0.0",
@@ -10,9 +10,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "vite build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
